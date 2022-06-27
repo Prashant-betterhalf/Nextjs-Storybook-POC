@@ -5,7 +5,7 @@ function NavBar() {
     <nav className="h-[30px] mb-5 p-4 xl:h-auto grid grid-cols-2  ">
     <div>
       {" "}
-      Logo
+     <p className="text-white"> betterhalf.ai</p>
     </div>
 
     <div className="grid justify-items-end">
@@ -71,7 +71,7 @@ function NavBar() {
         rounded-lg
         shadow-lg
         mt-1
-        
+        hidden
         m-0
         bg-clip-padding
         border-none
